@@ -1,0 +1,101 @@
+# Changes Logs
+
+---
+
+## VOL 1 =
+
+    branch = vol/1.0
+    type = update
+    - Menambahkan folder Resources
+    - Menambahkan file baru test/test1.log
+    - Mengupdate file dokumentasi: .gitignore, CHANGES.md, CONTRIBUTING.md, dan README.md
+    - Menghapus file test/igde.py
+
+- tag Name = Volume/1.0
+- view in = [here](https://github.com/ridwan-arch-v/XCEL/tree/main/resources)
+
+---
+
+## VOL 1.2 =
+
+    branch = vol/1.2
+    type = update
+    -rename the folder names
+
+- tag Name = Volume/1.2
+- view in = [here](https://github.com/ridwan-arch-v/XCEL/tree/main/resources)
+
+---
+
+## VOL 1.3 =
+
+    branch = vol/1.3
+    type = update 
+    docs(update): update CHANGES.md, remove obsolete files, and add new resources
+
+- tag name = Volume/1.3
+- view in = [here](https://github.com/ridwan-arch-v/XCEL/tree/main/resources)
+
+## Detailed Description
+
+Updated the `CHANGES.md` file to reflect the latest changes. Removed various obsolete files from the `resources/_Excel_Case` directory and related folders. Additionally, added new folders and files, including `.GITHUB/`, `docs/`, and `resources/Lenr/` to the repository.
+
+## Changes Made
+
+- Updated `CHANGES.md` to document recent updates.
+- Removed outdated files from the `resources/_Excel_Case`, `resources/_Excel_Data_Analysis`, `resources/_Excel_Examples`, and other directories.
+- Added new folders such as `.GITHUB/`, `docs/`, and `resources/Lenr/` to the repository.
+
+## Notes
+
+- This change cleans up obsolete files and introduces a new folder structure for better organization.
+- Ensure that the newly added folders align with the repository's updated structure and requirements.
+
+## References
+
+- Task: 184, Update repository structure and organize files.
+
+---
+
+## VOL 1.4 =
+
+    branch = main
+    type = update 
+    docs(update): update documentation files, remove obsolete files, and introduce new folders
+
+- tag name = Volume/1.4
+- view in = [here](https://github.com/ridwan-arch-v/XCEL/tree/main/resources)
+
+## Detailed Description
+
+This release updates several documentation files to ensure they reflect the most recent changes in the repository. Outdated files such as `CHANGES.md`, `CONTRIBUTING.md`, and `LICENSE.md` were removed, and several tutorial files were updated. Additionally, new directories and files have been added to improve repository organization, such as a new folder `resources/Lenr/_Excel_Tutorial/Excel_Fill/Double_CLick_fill/`.
+
+## Changes Made
+
+- **Modified** documentation files to reflect the latest changes.
+- **Deleted** outdated files:
+  - Removed `CHANGES.md`, `CONTRIBUTING.md`, and `LICENSE.md` from the repository.
+- **Updated** several tutorial markdown files in the `resources/Lenr/_Excel_Tutorial/` directory:
+  - `CitrusCodeX_Excel_Fill.md`
+  - `CitrusCodeX_Excel_Get_Started.md`
+  - `CitrusCodeX_Excel_HOME.md`
+  - `CitrusCodeX_Excel_Introduction.md`
+  - `CitrusCodeX_Excel_Overview.md`
+  - `CitrusCodeX_Excel_Ranges.md`
+  - `CitrusCodeX_Excel_Syntax.md`
+- **Added** new files and folders:
+  - `resources/Lenr/_Excel_Tutorial/Excel_Fill/Double_CLick_fill/`
+  - `resources/src/`
+
+## Notes
+
+- This update removes several obsolete files, ensuring that the repository stays up-to-date with the current structure.
+- Make sure to update any references to the removed files and adjust any links within the documentation.
+- Ensure that the newly added folders and files are correctly structured to fit into the repository's overall organization.
+
+## References
+
+- Task: 339, Remove outdated documentation and update tutorial files.
+
+---
+
