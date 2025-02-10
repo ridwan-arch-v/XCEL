@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salin ke Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ridwan-arch-v/CitrusDevTemplates@main/repository/excelenr/site/Style/CitrusCostomCssMdSite.css">
+    <style>
+</style>
+</head>
+<body>
+    <h2><!-- IMPUT THE TITLE HERE --></h2>
+    <textarea id="dataToCopy">
+        <!-- INPUT THE TEXT TABEL HERE -->
+    </textarea>
+    <br><br>
+    <button onclick="copyToClipboard()">Salin ke Clipboard</button>
+
+    <script>
+        function copyToClipboard() {
+            var copyText = document.getElementById("dataToCopy");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            alert("Data telah disalin ke clipboard! Sekarang, kamu bisa menempelkannya ke Excel.");
+        }
+    </script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/ridwan-arch-v/CitrusDevTemplates@main/repository/excelenr/site/Script/main.js"></script>
+</body>
+</html>
