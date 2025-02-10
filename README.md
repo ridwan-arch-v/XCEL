@@ -1,5 +1,7 @@
 # Habbist Exel-Lenr Project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2da6a9b2-9827-4534-bfa8-0110612140c3/deploy-status)](https://app.netlify.com/sites/ridwankhafidi-excel/deploys)
+
 Welcome to the Habbist Exel-Lenr project! This repository contains various Excel tutorials, case studies, references, and functions that help you enhance your Excel skills.
 
 ## Excel Tutorial
