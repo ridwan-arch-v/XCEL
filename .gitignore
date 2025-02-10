@@ -1,3 +1,15 @@
 setup/
 .env
 trash/
+
+node_modules/
+
+*.log
+*.tmp
+
+createMilestone.js
+
+package-lock.json
+package.json
+
+.vscode/

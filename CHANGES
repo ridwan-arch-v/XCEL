@@ -99,3 +99,39 @@ This release updates several documentation files to ensure they reflect the most
 
 ---
 
+## VOL 1.5 =
+
+    branch = vol/1.4
+    type = update 
+    docs(update): update documentation files and minor adjustments to the repository structure
+
+- tag name = Volume/5
+- view in = [here](https://github.com/ridwan-arch-v/XCEL/tree/main/resources)
+
+## Detailed Description
+
+This release focuses on making minor adjustments to the repository, updating documentation files, and cleaning up a few obsolete files. No major file deletions were made, and several files were retained for consistency. 
+
+## Changes Made
+
+- **Modified** documentation files to reflect the latest changes.
+- **Deleted** a few obsolete files:
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Case/CitrusCSS_Case_Poke_Mart/Case_Poke_Mart.css`
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Case/CitrusCSS_Case_Poke_Mart_Styling/Case_Poke_Mart_Styling.css`
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Case/_Excel_Case.css`
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Data_Analysis/CitrusCSS_Excel_Charts/Excel_Charts.css`
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Data_Analysis/CitrusCSS_Excel_Color_Scales/Excel_Color_Scales.css`
+  - `resources/src/function/CitrusCSS_css/CitrusCSS__Excel_Data_Analysis/CitrusCSS_Excel_Conditional_Format/Excel_Conditional_Format.css`
+- **Untracked files** added:
+  - `docs/LenrPreviewHTML/`
+  - `test/`
+
+## Notes
+
+- This release focuses on cleaning up some obsolete files while keeping important resources intact.
+- The files listed above were removed due to being outdated and no longer required for the repository.
+- New untracked folders such as `docs/LenrPreviewHTML/` and `test/` have been created but not yet added to version control.
+
+## References
+
+- Task: 356, Update repository structure and remove unnecessary files.
